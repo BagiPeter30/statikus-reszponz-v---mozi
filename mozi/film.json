@@ -1,0 +1,22 @@
+{
+  "films": [
+    { 
+		"id": "1",
+		"title": "Star Wars: Egy új remény",
+		"desc": "Réges régen, egy távoli galaxisban játszódik az egyik legnagyobb hatású sci-fi eposz. Ben Kenobi, Luke Skywalker, Han Solo, Leia Organa ls társaik kalandjain generációk nőttek fel.",
+		"pic" : "/src/assests/images/star_wars.jpg",
+		"votes" : 0},
+    { 
+		"id": "2",
+		"title": "A marsi",
+		"desc": "Andy Wair regénye alapján készült mű az egyik legpontosabb leírás a jelenkori tudomány állása szerint az űrutazás viszontagságairól. A történet középpontjában Mark Watney amerikai asztronauta áll, aki egyedül marad a Marson, így rögtönöznie kell a túlélése érdekében.",
+		"pic" : "martian.jpg",
+		"votes" : 0},
+    { 
+		"id": "3",
+		"title": "2001: Űrodüsszeia",
+		"desc": "Arthur C. Clarke regényíró és Stanley Kubrick rendező közös munkájából született klasszikus. Mélyértelmű képi szimbolikája és a művész- és közönségfilm kategóriák közti átmeneti volta az egyik legtöbbet elemzett sci-fi filmmé tette.",
+		"pic" : "space_odyssey.jpg",
+		"votes" : 0}
+    ]  
+}
