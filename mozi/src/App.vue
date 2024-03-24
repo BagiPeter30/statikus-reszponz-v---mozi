@@ -13,6 +13,7 @@ const votessw = ref(0)
 const incrisesw = () =>
 {
   votessw.value++
+
 }
 
 
@@ -36,28 +37,28 @@ const incrises = () =>
   </div>
  <div class="container" >
   <div class="row">
-    <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
       <div class="col" v-for="f in films">
-        <div class="card">
-          <img :src="'src/assets/logo.svg'" class="card-img-top w-50" alt="...">
-          <div class="card-body">
+        <div class="card text-white bg-dark">
+          <img :src="'src/assets/images/filmhib.jpg'" class="card-img-top w-50 mx-2 my-2 px-4 py-4" alt="...">
+          <div class="card-body lh-lg">
             <h5 class="card-title">{{ f.title }}</h5>
             <p class="card-text">{{ f.desc }}</p>
           </div>
                     <!-- Button trigger modal -->
-          <button type="button" class="btn btn-danger w-50 text-center fw-bold" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          <button type="button" class="btn btn-danger w-50 text-center fw-bold my-2 ms-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
             Szavazatok
           </button>
           <!-- Modal -->
-          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+          <div class="modal fade text-dark bg-secondary" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
               <div class="modal-content">
                 <div class="modal-header">
                   <h5 class="modal-title" id="exampleModalLabel">Itt tudsz szavazni</h5>
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body">
-                  Star Wars: Egy új remény <button class="btn btn-warning mx-1" @click="incrisesw">+</button> 
+                <div class="modal-body text-back">
+                  Star Wars: Egy új remény <button class="btn btn-warning my-2 mx-2" @click="incrisesw">+</button> 
                   <span class="fw-bold">Összes szavazat : {{ votessw }}</span>
                 </div>
                 <div class="modal-body">
@@ -77,4 +78,12 @@ const incrises = () =>
   </div>
  </div>
 </template>
+
+<style>
+body
+{
+  background-color: gray;
+}
+
+</style>
 
