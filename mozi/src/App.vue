@@ -45,11 +45,11 @@ const incrises = () =>
             <h5 class="card-title">{{ f.title }}</h5>
             <p class="card-text">{{ f.desc }}</p>
           </div>
-                    <!-- Button trigger modal -->
-          <button type="button" class="btn btn-danger w-50 text-center fw-bold my-2 ms-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        </div>
+      </div>    
+          <button type="button" class="btn btn-danger w-75 text-center fw-bold my-2 ms-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
             Szavazatok
           </button>
-          <!-- Modal -->
           <div class="modal fade text-dark bg-secondary" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-xl">
               <div class="modal-content">
@@ -72,8 +72,6 @@ const incrises = () =>
               </div>
             </div>
           </div>
-        </div>
-      </div>
     </div>
   </div>
  </div>
