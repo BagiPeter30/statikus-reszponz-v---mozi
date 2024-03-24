@@ -4,7 +4,7 @@
 		"id": "1",
 		"title": "Star Wars: Egy új remény",
 		"desc": "Réges régen, egy távoli galaxisban játszódik az egyik legnagyobb hatású sci-fi eposz. Ben Kenobi, Luke Skywalker, Han Solo, Leia Organa ls társaik kalandjain generációk nőttek fel.",
-		"pic" : "/src/assests/images/star_wars.jpg",
+		"pic" : "Star_wars.jpg",
 		"votes" : 0},
     { 
 		"id": "2",
